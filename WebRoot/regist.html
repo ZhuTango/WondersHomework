@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/icon.ico">
+    <title>Regist</title>
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+    <!-- FlatUI core CSS -->
+    <link href="css/flat-ui.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/tangoStyle.css" rel="stylesheet">
+</head>
+
+<body id="regist">
+    <div class="container">
+        <form class="form-unit form-horizontal" role="form" id="registForm">
+            <a class="brand">
+                <h1>Wondersgroup</h1>
+            </a>
+            <h3>创建您自己的 Wondersgroup 账号</h3>
+            <div class="login-form">
+                <div class="form-group">
+                    <input type="text" class="form-control login-field"  placeholder="邮箱" id="registEmail" name="user.email" />
+                    <label class="login-field-icon fui-mail" for="registEmail"></label>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control login-field"  placeholder="您的名字" id="registName" name="user.name"/>
+                    <label class="login-field-icon fui-user" for="registName"></label>
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control login-field"  placeholder="密码（字母、数字、至少六位）" id="registPwd" name="user.pwd"/>
+                    <label class="login-field-icon fui-lock" for="registPwd"></label>
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control login-field"  placeholder="再次输入密码" id="registPwd2"/>
+                    <label class="login-field-icon fui-lock" for="registPwd"></label>
+                </div>
+                <a class="btn btn-primary btn-lg btn-block" href="#"  id="registSubmit">Regist</a>
+            </div>
+            <div class="col-md-6">
+            </div>
+            <div class="col-md-6">
+                <a class="login-link" href="login.html">已经有账号了？登录去吧~</a>
+            </div>
+        </form>
+    </div>
+    <!-- /container -->
+     <!-- 调用的各种js代码 -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  
+
+    <!-- 自己写的js代码，包含各种功能代码 -->
+    <script src="js/tangoStyle.js"></script>
+
+    <!-- Placed at the end of the document so the pages load faster -->
+</body>
+
+</html>

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="img/icon.ico">
+    <title>Login</title>
+    <!-- Bootstrap core CSS -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- FlatUI core CSS -->
+    <link href="css/flat-ui.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="css/tangoStyle.css" rel="stylesheet">
+</head>
+
+<body id="login">
+    <div class="container">
+        <form class="form-unit form-horizontal" id="loginForm" role="form">
+            <a class="brand">
+                <h1>Wondersgroup</h1>
+            </a>
+            <h3>使用您的 Wondersgroup 账号登录</h3>
+            <div class="login-form">
+                <div class="form-group">
+                    <input type="text" class="form-control login-field required" value="" placeholder="你的名字" id="loginName" name="user.name" />
+                    <label class="login-field-icon fui-user" for="loginName"></label>
+                </div>
+                <div class="form-group">
+                    <input type="password" class="form-control login-field required" value="" placeholder="你的密码" id="loginPwd" name="user.pwd" />
+                    <label class="login-field-icon fui-lock" for="loginPwd"></label>
+                </div>
+                <a class="btn btn-primary btn-lg btn-block" href="#" id="loginSubmit">Login</a>
+            </div>
+            <div class="col-md-6"></div>
+            <div class="col-md-6"><a class="login-link" href="regist.html">去创建属于你的账号吧~</a>
+            </div>
+        </form>
+    </div>
+    <!-- /container -->
+    <!-- 调用的各种js代码 -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  
+
+    <!-- 自己写的js代码，包含各种功能代码 -->
+    <script src="js/tangoStyle.js"></script>
+
+    
+    <!-- Placed at the end of the document so the pages load faster -->
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name="default" extends="json-default">
+	
+	<!-- 登录   -->
+     <action name="login" class="com.dao.action.UserAction" method="login" >
+       <result type="json"></result>
+     </action>
+     
+     <!-- 注册   -->
+      <action name="regist" class="com.dao.action.UserAction" method="regist" >
+       <result type="json"></result>
+     </action>
+     
+     <!-- 得到所有用户   -->
+      <action name="getUsers" class="com.dao.action.UserAction" method="getUsers" >
+       <result type="json"></result>
+     </action>
+     
+     <!-- 修改用户信息   -->
+      <action name="editUser" class="com.dao.action.UserAction" method="editUser" >
+       <result type="json"></result>
+     </action>
+     
+      <!-- 删除用户信息   -->
+      <action name="delUser" class="com.dao.action.UserAction" method="delUser" >
+       <result type="json"></result>
+     </action>
+   </package>
+
+</struts>    
